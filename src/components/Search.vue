@@ -20,12 +20,11 @@ export default {
 };
 </script>
 
-
 <style media="screen">
 .mdl-textfield {
   padding: 0;
   background-color: #f6f6f6;
-  margin: 30px auto;
+  margin: 100px auto;
   width: 60%;
   display: flex;
   margin-bottom: 60px;

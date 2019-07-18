@@ -1,2 +1,2 @@
 export const CHANGE_KEYWORD = "CHANGE_KEYWORD";
-export const SEARTH = "SEARCH";
+export const SEARCH = "SEARCH";
