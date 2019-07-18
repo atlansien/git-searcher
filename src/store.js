@@ -17,7 +17,14 @@ export default new Vuex.Store({
     keyword: "",
     gifs: []
   },
-  mutations: {},
+  mutations: {
+    [CHANGE_KEYWORD](state, keyword) {
+      state.keyword = keyword;
+    },
+    [SEARCH](state, gifs) {
+      state.gifs = gifs.data;
+    }
+  },
   actions: {
     [CHANGE_KEYWORD]({ commit }, keyword) {
       commit(CHANGE_KEYWORD, keyword);
