@@ -34,5 +34,8 @@ export default new Vuex.Store({
         commit(SEARCH, data);
       });
     }
+  },
+  getters: {
+    gifs: state => state.gifs
   }
 });
